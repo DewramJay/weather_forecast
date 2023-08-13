@@ -14,7 +14,7 @@ const Login = () => {
     event.preventDefault();
     
     if (username === 'user' && password === 'password') {
-      window.location ="/HomePage.html";
+      window.location.replace("/HomePage");
     }
   };
 
